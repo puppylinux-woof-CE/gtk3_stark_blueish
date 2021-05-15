@@ -69,6 +69,8 @@ button:not(.flat) ,
 .button {
 	background-color: @theme_selected_bg_color;
 	border: 1px solid black;
+	border-radius: 3px;
+	padding: .35em;
 }
 button:active, .button:active,
 button:active:hover, .button:active:hover,
@@ -465,6 +467,7 @@ toolbar separator {
 toolbar button {
 	background: none;
 	border: 1px solid transparent;
+	padding: .35em;
 }
 toolbar button:disabled {
 	background: none;
