@@ -65,12 +65,16 @@ button.flat {
 	background-color: transparent;
 	border: 1px solid transparent;
 }
-button:not(.flat) , 
+button:not(.flat),
 .button {
-	background-color: @theme_selected_bg_color;
-	border: 1px solid black;
+	background-color: #D2D4D2;
+	border: 1px solid #989B98;
 	border-radius: 3px;
 	padding: .35em;
+}
+button:not(.flat):hover, .button:not(.flat):hover {
+	background-color: @theme_selected_bg_color;
+	border: 1px solid black;
 }
 button:active, .button:active,
 button:active:hover, .button:active:hover,
@@ -136,19 +140,19 @@ scrollbar.horizontal slider {
 	min-width: .5rem;
 }
 scrollbar.vertical button.up {
-	min-height: 0.5rem;
+	min-height: 0.25rem;
 	-gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
 }
 scrollbar.vertical button.down {
-	min-height: 0.5rem;
+	min-height: 0.25rem;
 	-gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
 }
 scrollbar.horizontal button.up {
-	min-width: 0.5rem;
+	min-width: 0.25rem;
 	-gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
 }
 scrollbar.horizontal button.down {
-	min-width: 0.5rem;
+	min-width: 0.25rem;
 	-gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
 }
 
@@ -467,7 +471,12 @@ toolbar separator {
 toolbar button {
 	background: none;
 	border: 1px solid transparent;
+	border-radius: 3px;
 	padding: .35em;
+}
+toolbar button:hover {
+	background-color: @theme_selected_bg_color;
+	border: 1px solid black;
 }
 toolbar button:disabled {
 	background: none;
