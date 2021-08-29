@@ -31,7 +31,7 @@
 	text-shadow: 1px 1px @theme_base_color;
 	-gtk-icon-effect: dim;
 }
-.flat:not(button):not(:hover):not(:checked) {
+.flat:not(button):not(modelbutton):not(:hover):not(:checked) {
 	border: 0;
 }
 
@@ -453,6 +453,16 @@ popover {
 }
 popover .flat {
 	padding: 5px;
+}
+
+modelbutton.flat {
+	border: 1px solid transparent;
+	border-radius: 3px;
+}
+
+modelbutton.flat:hover {
+	border: 1px solid black;
+	background-color: @theme_selected_bg_color;
 }
 
 /***********
