@@ -271,8 +271,8 @@ menu {
 	padding: 1px;
 }
 menubar > menuitem {
-	margin: 0;
-	padding: .3em .4em;
+	margin-top: 2px;
+	padding: .2em .4em;
 	border: 1px solid transparent;
 	border-radius: 3px;
 }
@@ -281,8 +281,8 @@ menubar > menuitem:hover {
 	border: 1px solid #989B98;
 }
 menuitem {
-	margin: 1px;
-	padding: 3px;
+	margin: 2px;
+	padding: 1px 3px;
 	border: 1px solid transparent;
 	border-radius: 3px;
 }
