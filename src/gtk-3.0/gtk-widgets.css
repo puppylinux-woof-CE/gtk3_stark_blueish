@@ -706,22 +706,24 @@ levelbar block.filled {
  * switch *
  **********/
 switch {
-	background-color: shade(@theme_bg_color, .9);
-	border-image: url("assets/button-pressed.png") 3 / 3px stretch;
-	min-height: 2em;
-	border: 1px solid transparent;
+	background-color: #D2D4D2;
+	border: 1px solid #989B98;
 	border-radius: 3px;
+	min-height: 2em;
 }
 switch slider {
-	background-color: @theme_selected_bg_color;
-	border: 1px solid black;
+	background-color: #D2D4D2;
+	border: 1px solid #989B98;
 	border-radius: 3px;
 	margin: 2px;
 	padding: .3em;
 }
-switch:checked {
-	background: @theme_selected_bg_color;
-	color: @theme_selected_fg_color;
+switch:hover, switch:hover slider {
+	background-color: @theme_selected_bg_color;
+	border: 1px solid black;
+}
+switch:checked slider {
+	background-color: @theme_selected_bg_color;
 	border: 1px solid black;
 }
 
