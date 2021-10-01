@@ -98,6 +98,9 @@ PanelToplevel menubar {
 	border: 0;
 	margin: -1px;
 }
+.mate-panel-menu-bar {
+	color: @theme_fg_color;
+}
 
 /*****************
  * Mate Terminal *
