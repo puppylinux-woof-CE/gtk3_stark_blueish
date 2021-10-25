@@ -21,6 +21,8 @@
  ***********/
 * {
 	-gtk-icon-style: regular; /* disable symbolic icons */
+	outline: 1px dotted @theme_fg_color;
+	outline-offset: -4px;
 }
 .background {
 	background-color: @theme_bg_color;
@@ -82,10 +84,6 @@ button:active:hover, .button:active:hover,
 button.toggle:checked,
 button.toggle:active:hover,
 stackswitcher button:checked {
-	background-color: @theme_selected_bg_color;
-	border: 1px solid black;
-}
-button:focus, .button:focus {
 	background-color: @theme_selected_bg_color;
 	border: 1px solid black;
 }
