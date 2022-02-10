@@ -1,7 +1,7 @@
-Flat-grey-rounded GTK Theme
-===========================
+stark-blueish GTK Theme
+=======================
 
-This is the fork of the [Raleigh Reloaded](https://github.com/vlastavesely/raleigh-reloaded) theme, modified to look like the traditional [Flat-grey-rounded Puppy Linux GTK 2 theme](https://distro.ibiblio.org/puppylinux/pet_packages-noarch/gtk_theme_flat_grey_rounded-1.pet).
+This is the fork of the [Raleigh Reloaded](https://github.com/vlastavesely/raleigh-reloaded) theme, modified to look like the traditional [stark-blueish Puppy Linux GTK 2 theme](https://distro.ibiblio.org/puppylinux/pet_packages-noarch/gtk_theme_stark-blueish-1.pet).
 
 Using Raleigh Reloaded as a base made the GTK 3 porting effort easier, since the GTK 2 theme is very close to Raleigh, the default GTK 2 theme.
 

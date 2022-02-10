@@ -43,15 +43,13 @@
 selection,
 *:selected,
 .view:selected {
-	background: #526f88;
-	color: white;
+	background: #d4d1de;
 }
 selection:focus,
 *:selected:focus,
 .view:selected:focus,
 *:focus *:selected {
-	background: #526f88;
-	color: white;
+	background: #d4d1de;
 }
 .rubberband,
 .view.rubberband,
@@ -70,14 +68,14 @@ button.flat {
 }
 button:not(.flat),
 .button {
-	background-color: #D2D4D2;
-	border: 1px solid #989B98;
+	background-color: #C5D8E2;
+	border: 1px solid #616161;
 	border-radius: 3px;
 	padding: .35em;
 }
 button:not(.flat):hover, .button:not(.flat):hover {
 	background-color: @theme_selected_bg_color;
-	border: 1px solid black;
+	border: 1px solid #979494;
 }
 button:active, .button:active,
 button:active:hover, .button:active:hover,
@@ -85,7 +83,7 @@ button.toggle:checked,
 button.toggle:active:hover,
 stackswitcher button:checked {
 	background-color: @theme_selected_bg_color;
-	border: 1px solid black;
+	border: 1px solid #979494;
 }
 button:disabled, .button:disabled {
 	background-image: linear-gradient(to bottom, white 80%, #e9e8e9);
@@ -110,8 +108,8 @@ button.toggle:checked:disabled  {
  * scrollbars *
  **************/
 scrollbar button {
-	background-color: #D2D4D2;
-	border: 1px solid #989B98;
+	background-color: #C5D8E2;
+	border: 1px solid #616161;
 	border-radius: 3px;
 	padding: .35em;
 }
@@ -119,7 +117,7 @@ scrollbar button:hover,
 scrollbar button:active,
 scrollbar button:active:hover {
 	background-color: @theme_selected_bg_color;
-	border: 1px solid black;
+	border: 1px solid #979494;
 }
 scrollbar button:disabled {
 	background-image: linear-gradient(to bottom, white 80%, #e9e8e9);
@@ -127,7 +125,7 @@ scrollbar button:disabled {
 }
 scrollbar slider {
 	background-color: @theme_selected_bg_color;
-	border: 1px solid black;
+	border: 1px solid #979494;
 	border-radius: 3px;
 }
 scrollbar.vertical slider {
@@ -164,7 +162,7 @@ check, radio, .view.cellradio {
 	min-width: 13px;
 }
 checkbutton:hover, radiobutton:hover {
-	background-color: @theme_selected_bg_color;
+	background-color: #fcf9f7;
 }
 checkbutton label, radiobutton label {
 	padding-right: .5em;
@@ -233,7 +231,7 @@ spinbutton * {
 	background: @theme_base_color;
 }
 spinbutton button {
-	background-color: #D2D4D2;
+	background-color: #C5D8E2;
 }
 
 /**************
@@ -277,8 +275,8 @@ menubar > menuitem {
 	border-radius: 3px;
 }
 menubar > menuitem:hover {
-	background-color: #D2D4D2;
-	border: 1px solid #989B98;
+	background-color: #C5D8E2;
+	border: 1px solid #616161;
 }
 menuitem {
 	margin: 1px;
@@ -287,8 +285,8 @@ menuitem {
 	border-radius: 3px;
 }
 menuitem:hover {
-	background-color: #D2D4D2;
-	border: 1px solid #989B98;
+	background-color: #C5D8E2;
+	border: 1px solid #616161;
 }
 menu separator {
 	border-image: url("assets/separator-horizontal.png") 1 / 1px stretch;
@@ -353,36 +351,36 @@ notebook.frame > .frame {
 }
 notebook header.top tab,
 notebook.frame > .frame.top {
-	background-color: #D2D4D2;
-	border: 1px solid #989B98;
+	background-color: #C5D8E2;
+	border: 1px solid #616161;
 	border-radius: 3px;
 	padding: 5px;
 }
 notebook header.bottom tab,
 notebook.frame > .frame.bottom {
-	background-color: #D2D4D2;
-	border: 1px solid #989B98;
+	background-color: #C5D8E2;
+	border: 1px solid #616161;
 	border-radius: 3px;
 	padding: 5px;
 }
 notebook header.left tab,
 notebook.frame > .frame.left {
-	background-color: #D2D4D2;
-	border: 1px solid #989B98;
+	background-color: #C5D8E2;
+	border: 1px solid #616161;
 	border-radius: 3px;
 	padding: 5px;
 }
 notebook header.right tab,
 notebook.frame > .frame.right {
-	background-color: #D2D4D2;
-	border: 1px solid #989B98;
+	background-color: #C5D8E2;
+	border: 1px solid #616161;
 	border-radius: 3px;
 	padding: 5px;
 }
 notebook header tab:checked,
 notebook.frame > .frame:active {
 	background-color: @theme_selected_bg_color;
-	border: 1px solid black;
+	border: 1px solid #979494;
 }
 notebook header.top tab:checked {
 	margin-top: -2px;
@@ -427,8 +425,8 @@ headerbar {
 	padding: 7px;
 }
 decoration {
-	background-color: #D2D4D2;
-	border: 1px solid black;
+	background-color: #C5D8E2;
+	border: 1px solid #616161;
 }
 
 /****************************
@@ -447,7 +445,7 @@ decoration {
  * popovers *
  ************/
 popover {
-	border: 1px solid #989B98;
+	border: 1px solid #979494;
 }
 popover .flat {
 	padding: 5px;
@@ -459,7 +457,7 @@ modelbutton.flat {
 }
 
 modelbutton.flat:hover {
-	border: 1px solid black;
+	border: 1px solid #979494;
 	background-color: @theme_selected_bg_color;
 }
 
@@ -483,7 +481,7 @@ toolbar button {
 }
 toolbar button:hover {
 	background-color: @theme_selected_bg_color;
-	border: 1px solid black;
+	border: 1px solid #979494;
 }
 toolbar button:disabled {
 	background: none;
@@ -526,7 +524,7 @@ list row {
 }
 list row:hover {
 	background-color: @theme_selected_bg_color;
-	border: 1px solid black;
+	border: 1px solid #979494;
 	border-radius: 3px;
 }
 
@@ -599,8 +597,8 @@ scale trough,
 treeview.view.trough,
 treeview.view.trough:selected,
 scrollbar {
-	background-color: #D2D4D2;
-	border: 1px solid #989B98;
+	background-color: #C5D8E2;
+	border: 1px solid #616161;
 	border-radius: 3px;
 }
 
@@ -613,7 +611,7 @@ scale {
 scale slider {
 	background-color: @theme_selected_bg_color;
 	border-radius: 3px;
-	border: 1px solid black;
+	border: 1px solid #979494;
 }
 scale slider:disabled,
 scale trough:disabled {
@@ -678,7 +676,7 @@ progressbar trough {
 progressbar progress,
 treeview.view.progressbar {
 	background-color: @theme_selected_bg_color;
-	border: 1px solid black;
+	border: 1px solid #979494;
 	border-radius: 3px;
 	margin-top: 1px;
 	margin-bottom: 1px;
@@ -706,7 +704,7 @@ levelbar block {
 }
 levelbar block.filled {
 	background-color: @theme_selected_bg_color;
-	border: 1px solid black;
+	border: 1px solid #979494;
 	border-radius: 3px;
 	margin: 1px;
 }
@@ -715,25 +713,25 @@ levelbar block.filled {
  * switch *
  **********/
 switch {
-	background-color: #D2D4D2;
-	border: 1px solid #989B98;
+	background-color: #C5D8E2;
+	border: 1px solid #616161;
 	border-radius: 3px;
 	min-height: 2em;
 }
 switch slider {
-	background-color: #D2D4D2;
-	border: 1px solid #989B98;
+	background-color: #C5D8E2;
+	border: 1px solid #616161;
 	border-radius: 3px;
 	margin: 2px;
 	padding: .3em;
 }
 switch:hover, switch:hover slider {
 	background-color: @theme_selected_bg_color;
-	border: 1px solid black;
+	border: 1px solid #979494;
 }
 switch:checked slider {
 	background-color: @theme_selected_bg_color;
-	border: 1px solid black;
+	border: 1px solid #979494;
 }
 
 /************
