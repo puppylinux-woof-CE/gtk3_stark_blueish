@@ -162,7 +162,7 @@ check, radio, .view.cellradio {
 	min-width: 13px;
 }
 checkbutton:hover, radiobutton:hover {
-	background-color: #fcf9f7;
+	background-color: @theme_selected_bg_color;
 }
 checkbutton label, radiobutton label {
 	padding-right: .5em;

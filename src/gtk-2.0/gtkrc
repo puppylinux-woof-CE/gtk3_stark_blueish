@@ -13,7 +13,7 @@ style "default"
 	#fg[SELECTED]	= "#FFFF00"		#The foreground of something as you click on it, or which is already selected
 	#fg[INSENSITIVE]	= "red"		#Foreground text of inactive buttons, etc.
 	bg[NORMAL]		= "#FFFFFF"		#The background of every non-clickable/non-active element
-	bg[PRELIGHT]	= "#FCF9F7"		#mouseover bg radiobuttons and checkboxes.
+	bg[PRELIGHT]	= "#98FFFF"		#mouseover bg radiobuttons and checkboxes.
 	#bg[ACTIVE]		= "gray90"		#The background of Evolutions's icons, selected folder, shorcut panel, etc.
 	#bg[SELECTED]	= "#7C91B0"		#The background of something as you click on it, or which is already selected
 	#bg[INSENSITIVE]	= "gray90"		#Background of un-clickable widgets
