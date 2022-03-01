@@ -480,6 +480,9 @@ toolbar button {
 	border-radius: 3px;
 	padding: .35em;
 }
+toolbar button.flat {
+	background-color: transparent;
+}
 toolbar button:hover {
 	background-color: @theme_selected_bg_color;
 	border: 1px solid #979494;
