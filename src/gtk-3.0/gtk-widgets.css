@@ -62,9 +62,8 @@ rubberband {
  * buttons *
  ***********/
 button.flat {
-	background-color: #C5D8E2;
+	background-color: transparent;
 	border: 1px solid transparent;
-	border-radius: 3px;
 	padding: .35em;
 }
 button:not(.flat),
