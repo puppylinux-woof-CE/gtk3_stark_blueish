@@ -421,7 +421,7 @@ expander arrow:checked {
 /********************************
  * CSD header and window border *
  ********************************/
-headerbar {
+headerbar, .titlebar {
 	background-color: @theme_bg_color;
 	padding: 3px;
 }
